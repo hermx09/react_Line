@@ -41,7 +41,7 @@ const Line = () => {
       <div className='msgs'>
 
         
-        {messages.map(({id,text,photoURL,uid,deleteFlg}) =>(
+        {messages.map(({id,text,photoURL,uid}) =>(
 
         
         

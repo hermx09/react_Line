@@ -31,7 +31,6 @@ if( message.trim().length===0 ){
             uid,
             createdAt: firebase.firestore.FieldValue.serverTimestamp(),
             id:uuidv4(),
-            deleteFlg:false
         });
 
        setMessage("");
